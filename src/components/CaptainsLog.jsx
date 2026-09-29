@@ -2,11 +2,9 @@ import React from 'react';
 
 const CaptainsLog = () => {
   const logs = [
-    { date: "Oct 12, 2023", title: "Designing the new Values Dictionary" },
-    { date: "Sep 28, 2023", title: "Reflections on our first gathering" },
-    { date: "Aug 15, 2023", title: "Why we're building Howdy Human" },
-    { date: "Jul 02, 2023", title: "The importance of slow media" },
-    { date: "Jun 14, 2023", title: "Archiving old projects to make space" },
+    { date: "Sep 29, 2026", title: "Opened the doors to Signal + Form" },
+    { date: "Sep 28, 2026", title: "Prepared Values Dictionary for App Store review" },
+    { date: "Sep 27, 2026", title: "Mapped the studio into one living index" },
   ];
 
   return (
@@ -19,10 +17,10 @@ const CaptainsLog = () => {
       <div className="border border-black bg-accent-yellow p-6 mb-8 cursor-pointer hover:bg-yellow-100 transition-colors">
         <div className="text-xs font-semibold uppercase tracking-widest mb-3">Studio Now</div>
         <h3 className="text-2xl font-serif font-bold mb-4 leading-tight">
-          We're looking for early beta testers for Howdy Human.
+          Signal + Form is live.
         </h3>
         <p className="text-sm mb-6">
-          If you're interested in helping us shape the future of digital connection, we'd love to hear from you.
+          We brought the studio home, connected the project paths, and opened an email list for the work ahead.
         </p>
         <div className="flex justify-end">
           <span className="text-2xl">→</span>
@@ -42,9 +40,12 @@ const CaptainsLog = () => {
         ))}
       </div>
 
-      <button className="w-full mt-8 border border-black py-3 font-semibold uppercase text-xs tracking-widest hover:bg-black hover:text-cream transition-colors">
-        View All Logs
-      </button>
+      <a
+        href="/signup.html"
+        className="block w-full mt-8 border border-black py-3 font-semibold uppercase text-xs tracking-widest text-center hover:bg-black hover:text-cream transition-colors"
+      >
+        Follow the work
+      </a>
     </div>
   );
 };

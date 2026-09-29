@@ -12,7 +12,7 @@ const Ticker = () => {
          <span className="italic font-serif normal-case opacity-60">Currently Exploring:</span>
          <span>Values Dictionary</span>
          <span>✦</span>
-         <span>Values Like Us</span>
+         <span>Values for Life</span>
          <span>✦</span>
          <span>Howdy Human</span>
       </div>
