@@ -19,4 +19,21 @@
   h1, h2, h3, h4, h5, h6 {
     @apply font-serif font-normal tracking-tight;
   }
+
+  a:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .hero-orbit > div:nth-child(1),
+  .hero-orbit > div:nth-child(2) {
+    animation: orbit-pulse 8s ease-in-out infinite alternate;
+  }
+}
+
+@keyframes orbit-pulse {
+  from { transform: scale(0.96); }
+  to { transform: scale(1.03); }
 }

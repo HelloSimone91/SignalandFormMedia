@@ -19,7 +19,7 @@ function App() {
         </main>
 
         <footer className="border-t border-black p-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs uppercase tracking-widest font-semibold text-center md:text-left">
-          <div>© 2025 Signal + Form Media</div>
+          <div>© 2026 Signal + Form Media</div>
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             <a href="https://www.valuesinthewild.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Values in the Wild</a>
             <a href="https://www.howdyhuman.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Howdy Human</a>
