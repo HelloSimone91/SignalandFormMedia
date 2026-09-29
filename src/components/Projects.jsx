@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, status, statusColor = "bg-green-500", imageUrl }) => (
+const ProjectCard = ({ title, description, status, statusColor = "bg-green-500" }) => (
   <div className="flex flex-col h-full border border-black group cursor-pointer hover:bg-cream-dark transition-colors">
     <div className="border-b border-black aspect-video flex items-center justify-center overflow-hidden bg-white/50">
        {/* Placeholder for project image */}
@@ -53,7 +53,7 @@ const Projects = () => {
   ];
 
   return (
-    <div className="md:col-span-2 pr-0 md:pr-8 border-b md:border-b-0 md:border-r border-black pb-12 md:pb-0">
+    <div id="projects" className="md:col-span-2 pr-0 md:pr-8 border-b md:border-b-0 md:border-r border-black pb-12 md:pb-0">
       <h2 className="text-sm font-semibold uppercase tracking-widest mb-8 flex items-center">
         <span className="mr-2">■</span> Projects
       </h2>

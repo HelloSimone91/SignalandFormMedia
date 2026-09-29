@@ -10,7 +10,7 @@ const CaptainsLog = () => {
   ];
 
   return (
-    <div className="md:col-span-1 pl-0 md:pl-8 pt-12 md:pt-0">
+    <div id="log" className="md:col-span-1 pl-0 md:pl-8 pt-12 md:pt-0">
       <h2 className="text-sm font-semibold uppercase tracking-widest mb-8 flex items-center">
         <span className="mr-2">■</span> Captain's Log
       </h2>

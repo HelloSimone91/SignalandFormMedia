@@ -18,12 +18,13 @@ function App() {
           <CaptainsLog />
         </main>
 
-        <footer className="border-t border-black p-8 flex justify-between items-center text-xs uppercase tracking-widest font-semibold">
-          <div>© {new Date().getFullYear()} Signal + Form Media</div>
-          <div className="flex space-x-6">
-            <a href="#" className="hover:underline">Twitter</a>
-            <a href="#" className="hover:underline">Instagram</a>
-            <a href="#" className="hover:underline">Are.na</a>
+        <footer className="border-t border-black p-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs uppercase tracking-widest font-semibold text-center md:text-left">
+          <div>© 2025 Signal + Form Media</div>
+          <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
+            <a href="https://www.valuesinthewild.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Values in the Wild</a>
+            <a href="https://www.howdyhuman.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Howdy Human</a>
+            <a href="https://signalandformmedia.gumroad.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Signal + Form Shop</a>
+            <a href="/signup.html" className="hover:underline">Email List</a>
           </div>
         </footer>
       </div>

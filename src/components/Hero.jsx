@@ -2,7 +2,7 @@ import React from 'react';
 
 const Hero = () => {
   return (
-    <section className="py-16 px-8 relative overflow-hidden border-b border-black flex flex-col md:flex-row">
+    <section id="about" className="py-16 px-8 relative overflow-hidden border-b border-black flex flex-col md:flex-row">
       {/* Decorative stars/crosses background can be added as absolute positioning here */}
       <div className="absolute top-10 left-10 text-xl opacity-20">✧</div>
       <div className="absolute top-32 left-1/4 text-xl opacity-20">✧</div>
@@ -16,12 +16,12 @@ const Hero = () => {
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
         <div className="flex space-x-4">
-          <button className="border border-black rounded-full px-6 py-3 font-semibold uppercase text-sm tracking-widest hover:bg-black hover:text-cream transition-colors">
-            Contact
-          </button>
-          <button className="border border-black rounded-full px-6 py-3 font-semibold uppercase text-sm tracking-widest hover:bg-black hover:text-cream transition-colors">
+          <a href="#projects" className="border border-black rounded-full px-6 py-3 font-semibold uppercase text-sm tracking-widest hover:bg-black hover:text-cream transition-colors inline-block text-center">
+            Explore Projects
+          </a>
+          <a href="/signup.html" className="border border-black rounded-full px-6 py-3 font-semibold uppercase text-sm tracking-widest hover:bg-black hover:text-cream transition-colors inline-block text-center">
             Subscribe
-          </button>
+          </a>
         </div>
       </div>
 
