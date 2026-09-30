@@ -10,6 +10,11 @@
 }
 
 @layer base {
+  html, body, #root {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
   body {
     @apply bg-cream text-dark font-sans;
     -webkit-font-smoothing: antialiased;
@@ -23,6 +28,24 @@
   a:focus-visible {
     outline: 2px solid currentColor;
     outline-offset: 4px;
+  }
+}
+
+@media (max-width: 640px) {
+  header nav {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  header nav a {
+    text-align: center;
+  }
+
+  #about,
+  #about > div {
+    min-width: 0;
+    max-width: 100%;
   }
 }
 

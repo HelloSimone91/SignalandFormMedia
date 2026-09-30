@@ -9,13 +9,13 @@ const Hero = () => {
       <div className="absolute bottom-20 left-1/3 text-xl opacity-20">✧</div>
 
       <div className="w-full md:w-3/5 z-10 md:pr-10">
-        <h1 className="text-6xl md:text-[5.5rem] lg:text-[6.5rem] font-serif leading-[0.9] tracking-[-0.055em] mb-8 max-w-4xl">
+        <h1 className="text-5xl sm:text-6xl md:text-[5.5rem] lg:text-[6.5rem] font-serif leading-[0.9] tracking-[-0.055em] mb-8 max-w-4xl">
           Media, tools, and gatherings to navigate the wilderness.
         </h1>
         <p className="text-xl md:text-2xl mb-10 max-w-2xl font-serif leading-snug">
           A studio for noticing what matters, making useful things, and sharing what we learn along the way.
         </p>
-        <div className="flex space-x-4">
+        <div className="flex flex-col sm:flex-row gap-4">
           <a href="#projects" className="border border-black rounded-full px-6 py-3 font-semibold uppercase text-sm tracking-widest hover:bg-black hover:text-cream transition-colors inline-block text-center">
             Explore Projects
           </a>

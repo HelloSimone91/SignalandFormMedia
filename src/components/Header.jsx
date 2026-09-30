@@ -6,7 +6,7 @@ const Header = () => {
       <div className="font-serif text-xl tracking-wide uppercase font-bold">
         Signal + Form
       </div>
-      <nav className="flex flex-wrap justify-center gap-x-6 gap-y-2 text-sm uppercase tracking-widest font-semibold">
+      <nav className="w-full md:w-auto flex flex-wrap justify-center gap-x-4 md:gap-x-6 gap-y-2 text-xs md:text-sm uppercase tracking-widest font-semibold">
         <a href="#projects" className="hover:opacity-70 transition-opacity">Projects</a>
         <a href="#log" className="hover:opacity-70 transition-opacity">Captain's Log</a>
         <a href="#about" className="hover:opacity-70 transition-opacity">About</a>

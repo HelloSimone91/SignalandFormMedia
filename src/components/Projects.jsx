@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, status, href, accent = "bg-[#f1edff]", mark = "✦", statusColor = "bg-green-500" }) => (
+const ProjectCard = ({ title, description, status, href, accent = "bg-[#f1edff]", mark = "✦", graphic, statusColor = "bg-green-500" }) => (
   <a
     href={href}
     target={href?.startsWith('http') ? '_blank' : undefined}
@@ -8,8 +8,21 @@ const ProjectCard = ({ title, description, status, href, accent = "bg-[#f1edff]"
     className="flex flex-col h-full border border-black group cursor-pointer hover:-translate-y-1 hover:shadow-[8px_8px_0_#1f1f1f] transition-all no-underline text-inherit overflow-hidden"
   >
     <div className={`h-28 md:h-36 border-b border-black ${accent} relative overflow-hidden`} aria-hidden="true">
-      <span className="absolute -right-3 -bottom-10 font-serif text-[9rem] md:text-[11rem] leading-none tracking-tighter opacity-90 transition-transform duration-500 group-hover:-translate-x-3 group-hover:-translate-y-2">{mark}</span>
-      <span className="absolute top-4 left-4 text-[10px] uppercase tracking-[0.28em] font-semibold">Signal + Form</span>
+      {graphic === "weird" ? (
+        <>
+          <div className="absolute -right-8 -top-12 w-36 h-36 rounded-full bg-[#5d4a82] opacity-95 transition-transform duration-500 group-hover:scale-110"></div>
+          <span className="absolute right-7 top-3 text-5xl text-[#ff725e] transition-transform duration-500 group-hover:rotate-12">✦</span>
+          <span className="absolute left-4 top-3 font-serif text-3xl md:text-4xl leading-[0.82] tracking-[-0.055em]">things get<br />weird</span>
+          <svg className="absolute left-3 bottom-2 w-36 h-7 text-[#f4b942]" viewBox="0 0 150 28" fill="none">
+            <path d="M4 21C42 9 83 8 144 14" stroke="currentColor" strokeWidth="5" strokeLinecap="round" />
+          </svg>
+        </>
+      ) : (
+        <>
+          <span className="absolute -right-3 -bottom-10 font-serif text-[9rem] md:text-[11rem] leading-none tracking-tighter opacity-90 transition-transform duration-500 group-hover:-translate-x-3 group-hover:-translate-y-2">{mark}</span>
+          <span className="absolute top-4 left-4 text-[10px] uppercase tracking-[0.28em] font-semibold">Signal + Form</span>
+        </>
+      )}
     </div>
     <div className="p-6 flex-grow flex flex-col">
       <h3 className="text-3xl md:text-4xl font-serif font-bold leading-[0.95] tracking-[-0.04em] mb-4">{title}</h3>
@@ -53,12 +66,13 @@ const Projects = () => {
       statusColor: "bg-blue-500"
     },
     {
-      title: "Campfire Media",
-      description: "Tools for hosting better conversations, both online and off.",
-      accent: "bg-[#ffd7cf]",
-      mark: "↗",
-      status: "IN THE ARCHIVE",
-      statusColor: "bg-gray-400"
+      title: "Things Get Weird",
+      description: "Workbooks and creative tools for becoming more yourself.",
+      href: "https://thingsgetweird.com/",
+      accent: "bg-[#dce7ff]",
+      graphic: "weird",
+      status: "NOW",
+      statusColor: "bg-green-500"
     },
     {
       title: "The Long View",
