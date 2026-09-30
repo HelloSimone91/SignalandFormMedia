@@ -23,7 +23,7 @@ function App() {
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-2">
             <a href="https://www.valuesinthewild.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Values in the Wild</a>
             <a href="https://www.howdyhuman.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Howdy Human</a>
-            <a href="https://signalandformmedia.gumroad.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Signal + Form Shop</a>
+            <a href="https://thingsgetweird.com/" target="_blank" rel="noopener noreferrer" className="hover:underline">Things Get Weird</a>
             <a href="/signup.html" className="hover:underline">Email List</a>
           </div>
         </footer>
