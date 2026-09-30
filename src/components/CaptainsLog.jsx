@@ -82,7 +82,7 @@ const logs = [
   {
     date: "Sep 14, 2026",
     title: "Went for a run on no sleep",
-    blurb: “Laced up and ran 1 mile anyway, even on an empty tank.Trying to start a new habit”, 
+    blurb: "Laced up and ran 1 mile anyway, even on an empty tank.Trying to start a new habit", 
   },
   {
     date: "Sep 13, 2026",
