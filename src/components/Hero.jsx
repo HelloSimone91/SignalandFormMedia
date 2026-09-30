@@ -10,11 +10,9 @@ const Hero = () => {
 
       <div className="w-full md:w-3/5 z-10 md:pr-10">
         <h1 className="text-5xl sm:text-6xl md:text-[5.5rem] lg:text-[6.5rem] font-serif leading-[0.9] tracking-[-0.055em] mb-8 max-w-4xl">
-            Ideas, tools, and experiments for putting what matters into practice.
+             Values are signals. Verbs give them form.
         </h1>
-        <p className="text-xl md:text-2xl mb-10 max-w-2xl font-serif leading-snug">
-          Values are signals. Verbs give them form.
-        </p>
+    
         <div className="flex flex-col sm:flex-row gap-4">
           <a href="#projects" className="border border-black rounded-full px-6 py-3 font-semibold uppercase text-sm tracking-widest hover:bg-black hover:text-cream transition-colors inline-block text-center">
             Explore Projects
@@ -34,7 +32,7 @@ const Hero = () => {
           <div className="absolute w-[18%] aspect-square rounded-full bg-[#57d6a4] border border-black left-[15%] top-[16%]"></div>
           <div className="absolute inset-x-[-10%] top-1/2 h-px bg-black rotate-[-14deg]"></div>
           <div className="absolute inset-y-[-10%] left-1/2 w-px bg-black rotate-[18deg]"></div>
-          <span className="absolute bottom-6 right-6 text-xs uppercase tracking-[0.24em] font-semibold">Signal / Form / Next</span>
+          <span className="absolute bottom-6 right-6 text-xs uppercase tracking-[0.24em] font-semibold">Signal + Form Media</span>
         </div>
       </div>
     </section>
