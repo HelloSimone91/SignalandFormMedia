@@ -2,7 +2,7 @@ const logs = [
   {
     date: "Sep 29, 2026",
     title: "Set up the Gumroad shop",
-    blurb: "We kept working the Gumroad shop and pointed thingsgetweird.com's DNS at it, then came up with an amazing storefront design. Got three new digital products added to the shop. Checked App Store Connect incessantly. Values Dictionary has not yet been re-reviewed”,
+    blurb: "We kept working the Gumroad shop and pointed thingsgetweird.com's DNS at it, then came up with an amazing storefront design. Got three new digital products added to the shop. Checked App Store Connect incessantly. Values Dictionary has not yet been re-reviewed.",
   },
   {
     date: "Sep 29, 2026",
