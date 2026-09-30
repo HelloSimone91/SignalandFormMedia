@@ -13,7 +13,7 @@ const Hero = () => {
           Media, tools, and gatherings to navigate the wilderness.
         </h1>
         <p className="text-xl md:text-2xl mb-10 max-w-2xl font-serif leading-snug">
-          A studio for noticing what matters, making useful things, and sharing what we learn along the way.
+          Ideas, tools, and experiments for putting what matters into practice.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <a href="#projects" className="border border-black rounded-full px-6 py-3 font-semibold uppercase text-sm tracking-widest hover:bg-black hover:text-cream transition-colors inline-block text-center">
