@@ -13,7 +13,6 @@ const ProjectCard = ({ title, description, status, href, accent = "bg-[#f1edff]"
           <div className="absolute -right-8 -top-12 w-36 h-36 rounded-full bg-[#5d4a82] opacity-95 transition-transform duration-500 group-hover:scale-110"></div>
           <span className="absolute right-7 top-3 text-5xl text-[#ff725e] transition-transform duration-500 group-hover:rotate-12">✦</span>
           <span className="absolute top-3 left-4 text-[10px] uppercase tracking-[0.28em] font-semibold">Signal + Form</span>
-          <span className="absolute left-4 top-8 font-serif text-3xl md:text-4xl leading-[0.82] tracking-[-0.055em]">things get<br />weird</span>
           <svg className="absolute left-3 bottom-2 w-36 h-7 text-[#f4b942]" viewBox="0 0 150 28" fill="none">
             <path d="M4 21C42 9 83 8 144 14" stroke="currentColor" strokeWidth="5" strokeLinecap="round" />
           </svg>
@@ -74,14 +73,6 @@ const Projects = () => {
       graphic: "weird",
       status: "NOW",
       statusColor: "bg-green-500"
-    },
-    {
-      title: "The Long View",
-      description: "A quarterly publication on long-term thinking and ecological awareness.",
-      accent: "bg-[#dce9ff]",
-      mark: "∞",
-      status: "IN THE ARCHIVE",
-      statusColor: "bg-gray-400"
     }
   ];
 
