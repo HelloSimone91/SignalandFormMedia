@@ -87,17 +87,17 @@ const logs = [
   {
     date: "Sep 13, 2026",
     title: "Designed the Values Dictionary app icon",
-    blurb: “Spent the early hours in Affinity drawing the dictionary app's icon, then reined in Jules after it overworked howdyhuman.com.",
+    blurb: "Spent the early hours in Affinity drawing the dictionary app's icon, then reined in Jules after it overworked howdyhuman.com.",
   },
   {
     date: "Sep 12, 2026",
     title: "Reviewed pull requests for howdyhuman.com",
-    blurb: “Worked through website pull requests with Jules, keeping the site's changes moving.",
+    blurb: "Worked through website pull requests with Jules, keeping the site's changes moving.",
   },
   {
     date: "Sep 11, 2026",
     title: "Worked on valuesinthewild.com and howdyhuman.com with Jules",
-    blurb: “Pushed fixes on the studio's web projects with the Jules coding tool and cleaned up the Notion workspace.",
+    blurb: "Pushed fixes on the studio's web projects with the Jules coding tool and cleaned up the Notion workspace.",
   },
 ];
 
