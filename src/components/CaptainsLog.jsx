@@ -23,7 +23,7 @@ const logs = [
 
 const CaptainsLog = () => {
   return (
-    <div id="log" className="md:col-span-1 pl-0 md:pl-8 pt-12 md:pt-0">
+    <div id="log" className="md:col-span-1 pl-0 md:pl-8 pt-14 md:pt-0">
       <h2 className="text-sm font-semibold uppercase tracking-widest mb-8 flex items-center">
         <span className="mr-2">■</span> Captain's Log
       </h2>
@@ -38,13 +38,9 @@ const CaptainsLog = () => {
           <span aria-hidden="true" className="text-lg leading-none transition-transform group-open:rotate-180">⌄</span>
         </summary>
         <p className="text-sm px-6 pb-6">
-          We brought the studio home, connected the project paths, and opened an email list for the work ahead.
+          The Captain's Log is a collaboration between Simone and Codex. Simone sets the direction, and Codex mostly runs the log by gathering the work, checking the facts, and turning it into quick updates.
         </p>
       </details>
-
-      <p className="text-sm leading-relaxed mb-4">
-        The Captain's Log is a collaboration between Simone and Codex. Simone sets the direction, and Codex mostly runs the log by gathering the work, checking the facts, and turning it into quick updates.
-      </p>
 
       {/* Log List */}
       <div className="flex flex-col">
